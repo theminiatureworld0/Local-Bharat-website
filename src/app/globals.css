@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-parchment-bg: #F3E9DC;
+  --color-parchment-warm: #F3E9DC;
+  --color-parchment-card: #FBF6EE;
+  --color-parchment-border: #E4D3BD;
+  --color-ink-primary: #2E1A12;
+  --color-ink-muted: #7B5C4B;
+  --color-bronze: #B5532F;
+  --color-bronze-hover: #D9743F;
+  --color-bronze-pressed: #7A2E17;
+  --color-accent: #D8A97C;
+  --color-success: #5E7F6E;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background-color: #F3E9DC;
+    color: #2E1A12;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: #F3E9DC;
+    color: #2E1A12;
+    min-height: 100vh;
+    overflow-x: hidden;
+    font-family: 'Poppins', 'Inter', sans-serif;
+  }
+
+  ::selection {
+    background-color: #B5532F;
+    color: #FFFFFF;
+  }
+
+  :focus-visible {
+    outline: 2px solid #B5532F;
+    outline-offset: 2px;
+  }
+}
+
+/* Subtle warm background texture */
+.paper-texture {
+  background-color: #F3E9DC;
+  background-image: 
+    radial-gradient(#E4D3BD 0.75px, transparent 0.75px), 
+    radial-gradient(#E8DBC9 0.75px, #F3E9DC 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+}
+
+/* Warm terracotta gradient */
+.bg-parchment-banner {
+  background: linear-gradient(135deg, #FBF6EE 0%, #F3E9DC 50%, #EFE3D3 100%);
+}
+
+.bg-parchment-card {
+  background-color: #FBF6EE;
+  border-color: #E4D3BD;
+}
+
+/* Smooth transitions */
+a, button {
+  transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 48" fill="none">
+  <!-- Local Bharat Terracotta Badge -->
+  <g transform="translate(4, 4)">
+    <rect x="0" y="0" width="40" height="40" rx="10" fill="#B5532F" />
+    <!-- Shop / Bharat Geometry -->
+    <path d="M12 18L20 12L28 18V28C28 29.1 27.1 30 26 30H14C12.9 30 12 29.1 12 28V18Z" stroke="#FBF6EE" stroke-width="2" fill="none" stroke-linejoin="round" />
+    <path d="M17 30V22H23V30" stroke="#FBF6EE" stroke-width="1.75" fill="none" />
+    <circle cx="20" cy="17" r="1.5" fill="#D8A97C" />
+  </g>
+  <!-- Typography -->
+  <text x="56" y="24" font-family="'Poppins', 'Inter', sans-serif" font-size="16" font-weight="700" letter-spacing="0.08em" fill="#2E1A12">LOCAL BHARAT</text>
+  <text x="57" y="36" font-family="'Inter', sans-serif" font-size="8.5" font-weight="600" letter-spacing="0.18em" fill="#7B5C4B">DISCOVER &bull; GROW LOCAL</text>
+</svg>
